@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen final de modulo</title>
+    <link rel="stylesheet" href="css/styleexamen.css">
+    <script src="js/scriptexamen.js"></script>
+    <link href="img/favicom.png" type="image/x-icon" rel="shortcut icon">
+</head>
+<body>
+
+    <script>window.alert("Bienvenido a nuestra página de paqueteria online");</script>
+
+    <header class="flex">
+        <div class="logo">
+            <img src="img/logo.png" alt="Logo">
+        </div>
+<div>
+        <header>
+
+           <div class="topnav" id="myTopnav">
+                <div class="col-3 col-s-3 menu">
+            
+                     <a href="examen.html">Inicio</a>
+                      <a href="envioNacional.html">Envío nacional</a>
+                         <a href="contacto.html">Contacto</a>
+                              <a href="EnvioInternacional.html">Envio Internacional</a>
+                                  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                                   <i class="fa fa-bars"></i>
+        </a>
+      
+
+    </header>
+
+    <header>
+        <section class="cabecera">
+            <img  src="img/paquete 1.jpeg" alt="cabecera">
+            <div class="centrado col-4">
+              <div class="col-12 imagen">
+                <div class="centrado">
+                   <div class="titu"><h1>¿CUÁNTO ME VA A COSTAR MI ENVÍO?</h1> </div>
+        
+                   <section class="peso">
+                    <label for="peso">Indique el peso aproximado del artículo a enviar</label>
+                    <select name="peso" id="peso">
+                    <option value=""></option>
+                    <option value="2.88">Hasta 0.5kg</option>
+                    <option value="4.75">Hasta 5kg</option>
+                    <option value="4.75">Hasta 5kg</option>
+                    <option value="6.49">Hasta 10kg</option>
+                    <option value="9.39">Hasta 20kg</option>
+                  </select>
+                   <br>
+        
+                   <div class="km">
+                   <label for="kilometros">Seleccione lugar de envío</label>
+                        <select id="kilometros">
+                        <option value=""></option>
+                        <option value="5">Tu misma provincia</option>
+                        <option value="8">Tu misma comunidad autónoma</option>
+                        <option value="16">Baleares/Canarias</option>
+                        <option value="18">Ceuta/Melilla</option>
+                        <option value="12">Resto de España</option>
+                        <option value="20">Europa</option>
+                        <option value="25">Resto del Mundo</option>
+                       </select>
+        
+                    </div>
+                      <button type="submit" onclick="calcular()" class="boton">Precio final</button>
+                  <h3 id="resultado"></h3>    
+        
+                    </div>
+                  </section>
+            
+                
+        
+    </header>
+        
+
+       
+
+                 
+
+
+                        
+                     
+
+
+
+
+    
+</body>
+</html>
